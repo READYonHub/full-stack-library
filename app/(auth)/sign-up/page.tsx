@@ -17,9 +17,10 @@ const Page = () => {
                 universityCard: '',
             }}
 
-            onSubmit={async () => {
+            onSubmit={async (data) => {
+                console.log('Form data:', data); // Teszteléshez naplózhatod az adatokat
                 return { success: true }; // Alapértelmezett visszatérési érték
-            }}        />
+            }}       />
     )
 }
 
