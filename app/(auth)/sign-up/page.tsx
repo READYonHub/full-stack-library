@@ -17,8 +17,9 @@ const Page = () => {
                 universityCard: '',
             }}
 
-            onSubmit={()=>{}}
-        />
+            onSubmit={async () => {
+                return { success: true }; // Alapértelmezett visszatérési érték
+            }}        />
     )
 }
 

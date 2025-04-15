@@ -14,8 +14,9 @@ const Page = () => {
                 password: '',
             }}
 
-            onSubmit={()=>{}}
-        />
+            onSubmit={async () => {
+                return { success: true }; // Alapértelmezett visszatérési érték
+            }}        />
     )
 }
 
